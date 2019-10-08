@@ -19,9 +19,6 @@ links:
     url:          /archive
     external:     false
     external:     false
-  - name:         GitHub
-    url:          http://github.com/waayay
-    external:     true
 
 # Build settings
 markdown: kramdown
