@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Julia [![Demo](https://img.shields.io/badge/julia-demo-green.svg)](http://kuoa.github.io)
 
-You can use the [editor on GitHub](https://github.com/waayay/waayay.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A minimalistic jekyll theme
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---------------------------
+Home page
 
-### Markdown
+![about-page](https://raw.githubusercontent.com/kuoa/julia/master/assets/home.png)
+---------------------------
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Part one of a long post
+![post-1](https://raw.githubusercontent.com/kuoa/julia/master/assets/post_1.png)
+---------------------------
 
-```markdown
-Syntax highlighted code block
+Part two of a long post
+![post-2](https://raw.githubusercontent.com/kuoa/julia/master/assets/post_2.png)
+---------------------------
 
-# Header 1
-## Header 2
-### Header 3
+Posts will be listed by category in the `Archive` page alongside with their tags
+![archive-page](https://raw.githubusercontent.com/kuoa/julia/master/assets/archive.png)
 
-- Bulleted
-- List
+---------------------------
 
-1. Numbered
-2. List
+How to use it
+=========
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Install from github
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. [Fork this repository](https://github.com/kuoa/julia/fork)
 
-### Jekyll Themes
+2. Clone the repository to your computer and run it
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/waayay/waayay.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    ``` sh
+    $ git clone https://github.com/kuoa/julia.git
+    $ bundler install
+    $ jekyll serve
+    ```
 
-### Support or Contact
+---------------------------
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Configurations
+Edit the `_config.yml` file and make the theme yours.
+ * Change the base color in */css/main.sccs*  ```$brand-color:      new-color;```
+ * To enable comments modify the ```disqus_shortname```
+ * To enable google-analytics set ```google-analytics``` to true and paste your tracking code in ```/_inludes/google_analytics.html```
+ * To add links to the navbar edit the ```links``` section
+
+---------------------------
+### Author  [![Twitter](https://img.shields.io/badge/kuoa-<3-66BAB7.svg)](https://github.com/kuoa)
+
+---------------------------
+### License  [![License](https://img.shields.io/npm/l/express.svg)](https://github.com/kuoa/julia/blob/master/LICENSE)
